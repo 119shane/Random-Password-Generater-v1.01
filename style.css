@@ -1,0 +1,179 @@
+body {
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+    background: #3FA796;
+
+}
+.container {
+    padding-top: 20px;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #0F3460;
+    border-radius: 15px;
+    padding-bottom: 20px;
+ 
+}
+.user-detail-area {
+    width: 90%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+
+
+}
+.user-detail-area > h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #FEDB39;
+}
+
+h1 span {
+    color: #D61C4E;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.user-detail-area > p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #1CD6CE;
+    font-weight: 600;;
+    text-transform: capitalize;
+}
+
+.user-detail-area > p > span {
+    font-size: 17px;
+    color: #D61C4E;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.user-detail-area > input {
+    width: 120px;
+    height: 20px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    background: #FEDB39;  
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #0F3460;
+    margin-bottom: 7px;
+}
+
+.user-detail-area > button {
+    margin-bottom: 10px;
+    margin-top: 7px;
+    width: 200px;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #FEDB39;
+    border: none;
+    font-size: 16px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0F3460;
+    transition: 0.2s;
+}
+.user-detail-area > button:hover
+{
+    background: #0F3460;
+    color: #FEDB39;
+    border: 1px solid #D61C4E;
+}
+.user-detail-area > button:focus{
+    background: #0F3460;
+    color: #FEDB39;
+    border: 1px solid #D61C4E;
+} 
+.password-display-area {
+    margin-top: 20px;
+    width: 90%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+.password-display-area > .password-display {
+    width: 200px;
+    height: 20px;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    background: #3FA796;  
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #0F3460;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (max-width: 750px) and (min-width: 400px){
+    .user-detail-area {
+        height: 300px;
+    }
+    body {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    body {
+        padding-top: 30px;
+    }
+    .user-detail-area {
+        height: 260px;
+    }
+    .user-detail-area > h1 {
+        font-size: 35px;
+    }
+    .user-detail-area > button {
+        width: 180px;
+        font-size: 15px;
+        padding: 3px 6px;
+    }
+    .user-detail-area > input {
+        width: 120px;
+        font-size: 15px;
+        padding: 3px 6px;
+        margin-bottom: 10px;
+    }
+    .password-display-area > .password-display {
+        width: 180px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* .password-display-area {
+  
+} */
